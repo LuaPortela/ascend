@@ -1,0 +1,152 @@
+.footer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+  
+    & .logo_ascend {
+        width: 20%;
+        margin-left: 50px;
+
+        & h2 {
+            font-family: "Rubik Glitch", sans-serif;
+            color: #00f0ff;
+            font-size: 30px;
+            font-weight: 400;
+        }
+
+        & .paragrafo_ascend {
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    }
+
+    & .navegacao {
+        width: 10%;
+
+        & h3 {
+            color: #fff;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        & ul {
+            margin-top: 10px;
+            list-style: none;
+            line-height: 22px;
+        }
+
+        & li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        & li a:hover {
+            color: #a0ff00;
+            transition: 0.5s ease-in-out;
+        }
+    }
+
+    & .contato {
+        width: 20%;
+
+        & h3 {
+            color: #fff;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        & p i {
+            margin-right: 5px;
+        }
+
+        & p {
+            color: #fff;
+            font-weight: 500;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    }
+
+    & .redes_sociais {
+        width: 15%;
+
+        & h3 {
+            color: #fff;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        & a i {
+            color: #fff;
+            font-size: 30px;
+            padding-right: 20px;
+            text-shadow: 0px 1px #a0ff00;
+            line-height: 60px;
+        }
+
+        & a i:hover {
+            color: #a0ff00;
+            text-shadow: 0px 1px #fff;
+            transition: 0.5s ease-in-out;
+            font-size: 33.5px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+
+        & .logo_ascend,
+        & .navegacao,
+        & .contato,
+        & .redes_sociais {
+            width: 100%;
+            margin-left: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        & .logo_ascend h2 {
+            font-size: 24px;
+        }
+
+        & .logo_ascend .paragrafo_ascend {
+            font-size: 16px;
+        }
+
+        & .navegacao h3,
+        & .contato h3,
+        & .redes_sociais h3 {
+            font-size: 18px;
+        }
+
+        & .navegacao ul {
+            line-height: 26px;
+        }
+
+        & .navegacao li a,
+        & .contato p {
+            font-size: 16px;
+        }
+
+        & .redes_sociais a i {
+            font-size: 26px;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+
+        & .redes_sociais a i:hover {
+            font-size: 29px;
+        }
+    }
+}

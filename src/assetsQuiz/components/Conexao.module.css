@@ -1,0 +1,8 @@
+.slogan{
+    position: absolute;
+    width: 100%;
+    background: radial-gradient(ellipse 100% 100% at -25% 65%, rgba(14, 16, 121, 0.692), transparent 55%),
+    radial-gradient(ellipse 100% 100% at 115% -5%, rgba(14, 16, 121, 0.692), transparent 55%),
+    linear-gradient(to right,#000000 );
+    z-index: 2;
+}

@@ -1,0 +1,201 @@
+.container {
+    padding: 3rem 1rem;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins';
+    background: radial-gradient(ellipse 40% 40% at 55% 35%, rgba(14, 16, 121, 0.205), transparent 55%),
+    radial-gradient(ellipse 80% 80% at 123% -14%, rgba(14, 16, 121, 0.692), transparent 55%),
+    radial-gradient(ellipse 80% 80% at 123% 100%, rgba(14, 16, 121, 0.692), transparent 55%),
+     linear-gradient(to bottom, #000);
+
+    
+    .effect2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    button {
+        padding: 10px;
+        width: 250px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        margin-top: 5%;
+    }
+}
+
+.titulo {
+    color: white;
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    width: 60px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.curso1 {
+    z-index: 1;
+    margin-top: 7%;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    cursor: default;
+}
+
+
+.curso1 img { 
+    width: 20%;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+    cursor: default;
+}
+
+.curso1 p{
+    visibility: hidden;
+    opacity: 0;
+    width: 40%;
+    margin-left: 20%;
+    transition-duration: .3s;
+    cursor: default;
+}
+
+.curso1:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+.curso2 {
+    z-index: 1;
+    margin-top: 7%;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    cursor: default;
+}
+
+.curso2 img { 
+    width: 20%;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    left: 75%;
+    margin-top: 3%;
+    cursor: default;
+}
+
+.curso2 p {
+    visibility: hidden;
+    opacity: 0;
+    width: 30%;
+    margin-left: 70%;
+    margin-top: -20%;
+    transition-duration: 0.3s;
+    cursor: default;
+}
+
+.curso2:hover p{
+    visibility: visible;
+    opacity: 1;
+}
+.curso3 {
+    z-index: 1;
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    cursor: default;
+}
+
+.curso3 img { 
+    width: 20%;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    left: 18%;
+    margin-top: 5%;
+    cursor: default;
+}
+
+.curso3 p {
+    visibility: hidden;
+    opacity: 0;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -10%;
+    transition-duration: 0.3s;
+    cursor: default;
+}
+
+.curso3:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+.curso4 {
+    z-index: 1;
+    margin-top: 7%;
+    color: white;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    cursor: default;
+}
+
+
+.curso4 img { 
+    width: 20%;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    left: 35%;
+    margin-top: 3%;
+    cursor: default;
+}
+.curso4 p {
+    visibility: hidden;
+    opacity: 0;
+    width: 40%;
+    margin-left: 55%;
+    margin-top: 0%;
+    transition-duration: 0.3s;
+    cursor: default;
+}
+
+.curso4:hover p {
+    visibility: visible;
+    opacity: 1;
+}
+.curso5 img { 
+    width: 20%;
+    height: 100px;
+    object-fit: cover;
+    position: absolute;
+    left: 65%;
+    margin-top: 3%;
+    cursor: default;
+}
+.curso5 p {
+    visibility: hidden;
+    opacity: 0;
+    width: 40%;
+    margin-left: 15%;
+    color: white;
+    margin-top: 0%;
+    transition-duration: 0.3s;
+    cursor: default;
+}
+
+.curso5:hover p {
+    visibility: visible;
+    opacity: 1;
+}

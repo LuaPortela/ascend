@@ -1,0 +1,8 @@
+.fundoLogin{
+    width: 100%;
+    background-image: url(./assets/Video_LoginPage/LoginPage.mp4);
+
+    margin: auto;
+    height: 100vh;
+    position: relative;
+  }

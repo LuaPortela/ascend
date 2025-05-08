@@ -1,0 +1,26 @@
+#gameover {
+  text-align: center;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  color: white;
+  height: 100vh;
+  margin-top: 6%;
+}
+
+#gameover h2,
+#gameover p {
+  margin-bottom: 1rem;
+}
+
+#gameover p {
+  color: #39e1ff;
+}
+
+#gameover img {
+  margin: 2rem auto;
+  height: 200px;
+}

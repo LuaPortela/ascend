@@ -1,0 +1,105 @@
+.container {
+    height: auto;
+    background:radial-gradient(ellipse 80% 80% at -25% 45%, rgba(14, 16, 121, 0.692), transparent 55%),
+    radial-gradient(ellipse 40% 20% at 90% 15%, rgba(14, 16, 121, 0.274), transparent 55%),
+    radial-gradient(ellipse 100% 100% at 105% 105%, rgba(14, 16, 121, 0.295), transparent 55%),
+     linear-gradient(to right,#000000);
+    padding: 20% 0 0 0 ;
+
+    .planos {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        padding: 50px;  
+    h1 {
+        position: absolute;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        left: 8%;
+        margin-top: -20%;
+        font-size: 80px;
+        border-bottom: 3px solid rgb(0, 255, 255);
+    }
+
+    p {
+        color: white;
+        width: 800px;
+        position: absolute;
+        right: 10%;
+    }
+    }
+
+    .beneficio {
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        padding: 50px;     
+        position: relative; 
+    h1 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        margin-left: 30%;
+        margin-top: -20%;
+        font-size: 80px;
+        border-bottom: 3px solid rgb(0, 255, 255);
+    }
+
+    p {
+        position: absolute;
+        color: white;
+        top: 50%;
+        left: 10%;
+        width: 80%;
+    }
+    }
+
+    .preco {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        padding: 50px;      
+        position: relative;
+    h1 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        margin-top: -30%;
+        position: absolute;
+        right: 10%;
+        font-size: 80px;
+        border-bottom: 3px solid rgb(0, 255, 255);
+    }
+
+    p {
+        color: white;
+        position: absolute;
+        left: 8%;
+        width: 800px;
+    }
+    }
+
+    .btnadq {
+        width: 300px;
+        padding: 10px;
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btnadq:hover {
+        background-color: #000000;
+        color: rgb(0, 255, 255);
+        transition-duration: 0.5s;
+        border: 1px solid black;
+    } 
+}

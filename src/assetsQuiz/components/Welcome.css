@@ -1,0 +1,31 @@
+#welcome {
+  text-align: center;
+  width: 70%;
+  max-width: 500px;
+  border-radius: 15px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  color: white;
+  height: 100vh;
+  margin-top: 6%;
+}
+
+#welcome h2,
+#welcome p {
+  margin-bottom: 1rem;
+}
+
+#welcome p {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#welcome img {
+  margin-top: 2rem;
+  width: 90%;
+}
+
+#welcome button {
+  margin: 1rem;
+}
+

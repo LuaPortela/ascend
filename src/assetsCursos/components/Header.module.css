@@ -1,0 +1,267 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  .main {
+    background-color: black;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .imgfundo {
+    width: 100%;
+    opacity: 0.4;
+}
+
+  .txtinicio {
+      padding: 200px;  
+  }
+
+    
+ .txtinicio h1 {
+    position: absolute;
+    top: 40%;
+    font-weight: 200;
+    width: 700px;
+    color: rgb(255, 255, 255);
+    cursor: default;
+}
+
+
+.txtinicio span {
+    color: rgb(255, 255, 255);
+    transition-duration: 0.5s;
+    font-weight: 400;
+}
+
+.txtinicio span:hover {
+    color: rgb(0, 186, 243);
+}
+  
+  .cursos {
+      background:
+      radial-gradient(ellipse 100% 100% at -25% 95%, rgba(104, 104, 104, 0.308), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 26% 68%, rgba(255, 0, 0, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 42% 68%, rgba(15, 110, 145, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 58% 68%, rgba(247, 252, 0, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 74% 68%, rgba(110, 159, 179, 0.712), transparent 45%),
+      linear-gradient(135deg, #000000 );
+      color: white;
+      height: 100vh;
+      position: relative;
+      margin-top: -30%;
+  }
+  
+  .front, .back, .outros, .motivacional {
+      width: 100%;
+      height: 100vh;
+  }
+
+  .front {
+    position: relative;
+      z-index: 1;
+  }
+  
+  .back {
+    position: relative;
+      background: 
+
+      radial-gradient(ellipse 100% 100% at 125% 100%, rgba(0, 38, 255, 0.37), transparent 45%),
+      radial-gradient(ellipse 100% 100% at -25% 8%, rgba(104, 104, 104, 0.308), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 24% 68%, rgba(0, 47, 255, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 27% 68%, rgba(255, 251, 0, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 41% 68%, rgba(0, 187, 255, 0.521), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 43% 68%, rgb(15, 7, 88), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 58% 68%, rgba(252, 0, 0, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 58% 68%, rgba(116, 116, 116, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 58% 68%, rgba(46, 0, 252, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 74% 68%, rgba(0, 183, 255, 0.712), transparent 45%),
+      radial-gradient(ellipse 20% 10% at 76% 68%, rgba(255, 136, 0, 0.712), transparent 45%),
+      linear-gradient(135deg, black);
+      z-index: 2;
+  }
+  
+  .outros {
+    position: relative;
+      background:
+      radial-gradient(ellipse 100% 100% at 125% 8%, rgba(0, 38, 255, 0.37), transparent 45%),
+      radial-gradient(ellipse 30% 50% at 25% 60%, rgba(0, 38, 255, 0.137), transparent 65%),
+      linear-gradient(135deg,black);
+      z-index: 3;
+  }
+  
+  .motivacional {
+    position: relative;
+      z-index: 4;
+      background-color: black;
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+  }
+
+    
+.motivacional button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 5%;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 100;
+    border-radius: 50%;
+}
+
+.motivacional h1 {
+    font-size: 55px;
+    line-height: 0.9;
+    font-weight: 300;
+}
+  
+  .fronttxt {
+      padding: 60px;
+  }
+
+.fronttxt  h1 {
+    font-weight: 200;
+    border-bottom: 1px solid white;
+}
+
+.fronttxt p {
+    margin-top: 7%;
+}
+
+.fronttxt .imgs {
+    margin-left: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.fronttxt img {
+    width: 100px;
+    margin-top: 10%;
+}
+
+  .frontend {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: start;
+    padding: 40px;
+  }
+
+  .frontend h1 {
+      text-align: start;
+      border-bottom: 1px solid rgb(1, 140, 233);
+      width: 210px;
+      font-weight: 200;
+      font-size: 40px;
+      margin-bottom: 2%;
+  }
+  .cursosfront {
+    display: flex;
+    padding: 50px 0px;
+  }
+
+  
+  .cursosfront div {
+    border-left: 1px solid white;
+    padding: 10px 30px;
+}
+
+.cursosfront h2 {
+    font-weight: 500;
+}
+
+.cursosfront a {
+    text-decoration: none;
+    color: white;
+  }
+
+
+  .cursosback {
+    display: flex;
+    padding: 50px 0px;
+  }
+
+  .cursosback  div {
+    border-left: 1px solid white;
+    padding: 10px 30px;
+}
+
+.cursosback h2 {
+    font-weight: 500;
+}
+
+.cursosback a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .outros2 {
+    display: flex;
+    padding: 50px 0px;
+  }
+
+  
+  .outros2 div {
+    border-left: 1px solid white;
+    padding: 10px 30px;
+}
+
+.outros2 h2 {
+    font-weight: 500;
+
+}
+
+.outros2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+.cursosfront div:hover {
+    background-color: aqua;
+    transition-duration: .5s;
+    color: #000000;
+  }
+
+.cursosfront div:hover a {
+    color: black;
+}  
+
+.cursosback div:hover {
+    background-color: aqua;
+    transition-duration: .5s;
+    color: #000000;
+  }
+
+.cursosback div:hover a {
+    color: black;
+}
+  
+.outros2 div:hover {
+    background-color: aqua;
+    transition-duration: .5s;
+    color: #000000;
+  }
+
+.outros2 div:hover a {
+    color: black;
+}
+  
+  @keyframes ping-pong {
+      from {
+          transform: translateY(0px);
+      }   to {
+          transform: translateY(-20px);
+      }
+  }

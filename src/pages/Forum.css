@@ -1,0 +1,11 @@
+.fundoForum{
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-image:radial-gradient(ellipse 100% 100% at -35% 65%, rgba(14, 16, 121, 0.692), transparent 55%),
+  radial-gradient(ellipse 100% 100% at 115% -25%, rgba(14, 16, 121, 0.692), transparent 55%),
+  radial-gradient(ellipse 30% 50% at 65% 75%, rgba(14, 16, 121, 0.308), transparent 75%),
+  linear-gradient(160deg,black);
+  z-index: -2;
+}
