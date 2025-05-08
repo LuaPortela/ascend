@@ -45,8 +45,11 @@ hr {
     color: white;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    position: relative;
+    display: flex;
     cursor: default;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
 }
 
 
@@ -54,9 +57,6 @@ hr {
     width: 20%;
     height: 100px;
     object-fit: cover;
-    position: absolute;
-    top: 100%;
-    left: 10%;
     cursor: default;
 }
 
@@ -64,7 +64,6 @@ hr {
     visibility: hidden;
     opacity: 0;
     width: 40%;
-    margin-left: 20%;
     transition-duration: .3s;
     cursor: default;
 }
@@ -78,6 +77,8 @@ hr {
     margin-top: 7%;
     color: white;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
     position: relative;
     cursor: default;
@@ -87,9 +88,6 @@ hr {
     width: 20%;
     height: 100px;
     object-fit: cover;
-    position: absolute;
-    left: 75%;
-    margin-top: 3%;
     cursor: default;
 }
 
@@ -97,8 +95,6 @@ hr {
     visibility: hidden;
     opacity: 0;
     width: 30%;
-    margin-left: 70%;
-    margin-top: -20%;
     transition-duration: 0.3s;
     cursor: default;
 }
@@ -114,15 +110,16 @@ hr {
     display: flex;
     font-family: 'Poppins', sans-serif;
     position: relative;
-    cursor: default;
+    cursor: default;    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
 }
 
 .curso3 img { 
     width: 20%;
-    height: 100px;
     object-fit: cover;
-    position: absolute;
-    left: 18%;
     margin-top: 5%;
     cursor: default;
 }
@@ -130,9 +127,7 @@ hr {
 .curso3 p {
     visibility: hidden;
     opacity: 0;
-    width: 40%;
-    margin-left: 30%;
-    margin-top: -10%;
+    width: 40%; 
     transition-duration: 0.3s;
     cursor: default;
 }
@@ -145,9 +140,12 @@ hr {
     z-index: 1;
     margin-top: 7%;
     color: white;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
-    position: relative;
     cursor: default;
 }
 
@@ -156,8 +154,6 @@ hr {
     width: 20%;
     height: 100px;
     object-fit: cover;
-    position: absolute;
-    left: 35%;
     margin-top: 3%;
     cursor: default;
 }
@@ -165,8 +161,6 @@ hr {
     visibility: hidden;
     opacity: 0;
     width: 40%;
-    margin-left: 55%;
-    margin-top: 0%;
     transition-duration: 0.3s;
     cursor: default;
 }
@@ -175,13 +169,17 @@ hr {
     visibility: visible;
     opacity: 1;
 }
+
+.curso5 {
+    display: flex;
+    justify-content:  space-around;
+    padding: 30px;
+    align-items: center;
+}
 .curso5 img { 
     width: 20%;
     height: 100px;
     object-fit: cover;
-    position: absolute;
-    left: 65%;
-    margin-top: 3%;
     cursor: default;
 }
 .curso5 p {

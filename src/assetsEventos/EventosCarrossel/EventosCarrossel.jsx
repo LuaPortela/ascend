@@ -14,17 +14,11 @@ function EventosCarrossel() {
             <h2 className={Styles.titulo}>Próximos Eventos</h2>
             <hr />
             <button>Passe o mouse nas imagens</button>
-            <div className={Styles.curso1}>
-                <img src={evento1} alt="" />
-                <p>
-                O TDC é aquele tipo de evento que todo mundo da área de tecnologia deveria conhecer. Em 2025, ele continua sendo um ponto de encontro gigante para profissionais de todas as especialidades: front-end, back-end, IA, UX, gestão e muito mais. Cada trilha é pensada por quem entende do assunto, e o clima é de comunidade, troca e colaboração. É o lugar ideal para aprender, ensinar, se atualizar e fazer parte de algo maior no mundo da tecnologia.
-                </p>
-            </div>
             <div className={Styles.curso2}>
-            <img src={evento2} alt="" />
                 <p>
                 O Hackaton Woman in Tech é mais do que uma competição: é um movimento que valoriza e incentiva a presença feminina na tecnologia. Mulheres de diferentes áreas se reúnem para criar soluções com impacto real, ao mesmo tempo em que compartilham experiências, aprendem com mentoras incríveis e se fortalecem mutuamente. É um espaço seguro, inspirador e cheio de energia para quem quer transformar o mundo com tecnologia e dar visibilidade ao talento feminino no setor.
                 </p>
+                <img src={evento2} alt="" />
             </div>
             <div className={Styles.curso3}>
             <img src={evento5} alt="" />
@@ -33,16 +27,17 @@ function EventosCarrossel() {
                 </p>
             </div>
             <div className={Styles.curso4}>
-            <img src={evento4} alt="" />
                 <p>
                 Caxias 2025 Pessoas Tecnologia é um encontro que coloca as pessoas no centro da transformação digital da região da Serra Gaúcha. O evento reúne profissionais de TI, líderes comunitários, empresas e estudantes em torno de temas como inovação cidadã, tecnologia com impacto social e formação de talentos locais. Com um olhar voltado para o futuro, o evento propõe uma Caxias mais conectada, inclusiva e preparada para os desafios da nova economia digital.
                 </p>
+                <img src={evento4} alt="" />
             </div>
             <div className={Styles.curso5}>
-            <img src={evento3} alt="" />
+                
+            <img src={evento3} alt="" />    
                 <p>
                 O Porteira 443 é um evento único que une tecnologia e o cotidiano do interior do Brasil. Voltado para profissionais de TI, agricultores conectados e empreendedores rurais, ele traz à tona debates sobre conectividade, segurança digital e inovação no campo. Com palestras práticas, demonstrações de soluções em IoT agrícola e discussões sobre inclusão tecnológica nas zonas rurais, o evento mostra que tecnologia não tem fronteiras e que o campo também é digital.
-                </p>
+                </p> 
             </div>
             <div>
                 <img className={Styles.effect2} src="https://www.fiap.com.br/imgs/mba/home/header/effects.webp" alt="" />
